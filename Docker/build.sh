@@ -1,1 +1,1 @@
-docker build . -t fetch:melodic
+docker build . -t fetch:latest

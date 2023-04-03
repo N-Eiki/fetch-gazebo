@@ -48,6 +48,6 @@ RUN apt-get install ros-melodic-fetch-calibration ros-melodic-fetch-open-auto-do
         ros-melodic-fetch-navigation ros-melodic-fetch-tools -y
 
 RUN apt-get install python-catkin-tools -y
-RUN apt-get install byobu
+RUN apt-get install byobu -y
 # RUN echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 # RUN echo "cd /root/catkin_ws" >> ~/.bashrc
