@@ -12,7 +12,7 @@
   cd /root/catkin_ws
   roslaunch fetch_gazebo playground.launch
   #push F2
-  source devel/setup.bash
+  source /opt/ros/melodic/setup.bash
   roscd fetch_test/scripts
-  python tests_arm_movements.py
+  roslaunch fetch_gazebo_demo tests_arm_movements.launch
   ```
