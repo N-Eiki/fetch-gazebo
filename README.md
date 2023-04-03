@@ -9,9 +9,8 @@
   ./run.sh # change some arguments for each env
   ### in the container
   byobu
+  source /opt/ros/melodic/setup.bash
   cd /root/catkin_ws
-  catkin build
-  source devel/setup.bash
   roslaunch fetch_gazebo playground.launch
   #push F2
   source devel/setup.bash
