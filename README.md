@@ -3,7 +3,6 @@
 - procedure
   ```
   cd ./fetch-gazebo/src/
-  git clone https://docs.fetchrobotics.com/index.html
   cd ../Docker
   ./build.sh
   ./run.sh # change some arguments for each env
