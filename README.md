@@ -16,3 +16,5 @@
   roscd fetch_test/scripts
   roslaunch fetch_gazebo_demo tests_arm_movements.launch
   ```
+
+![fetch](images/fetch.png)
